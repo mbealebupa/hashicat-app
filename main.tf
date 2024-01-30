@@ -119,7 +119,6 @@ resource "null_resource" "configure-cat-app" {
   }
 }
 
-
 module "cloud-storage" {
   source     = "app.terraform.io/mbtrain/cloud-storage/google"
   version    = "3.4.1"
